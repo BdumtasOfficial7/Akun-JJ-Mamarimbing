@@ -89,6 +89,9 @@ h3 {
     color: #555;
     text-align: left;
 }
+.chatwa a {
+    margin-left: 250px;
+}
 
 .tugas p span {
     margin-left: 1rem;
