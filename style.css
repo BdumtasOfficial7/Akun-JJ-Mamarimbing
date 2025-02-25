@@ -31,14 +31,6 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #3498db;
-    transition: 1s;
-}
-
-.profile-image:active {
-    width: 200px;
-    height: 300px;
-    margin-top: 100px;
-    border-radius: 15px;
 }
 
 .profile-name {
