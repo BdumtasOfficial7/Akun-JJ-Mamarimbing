@@ -24,7 +24,7 @@ body {
     width: 320px;
 }
 
-.profile-image {
+.profile-card img {
     width: 120px;
     height: 120px;
     margin-top: 30px;
@@ -106,7 +106,7 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.tugas p span {
+.tugas p span, .profile-level span {
     margin-left: 1rem;
     animation: animasiNeon 1s ease infinite alternate;
 }
