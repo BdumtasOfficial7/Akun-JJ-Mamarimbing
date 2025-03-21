@@ -1,3 +1,7 @@
+* {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
@@ -109,6 +113,21 @@ h3 {
 .tugas p span, .profile-level span {
     margin-left: 1rem;
     animation: animasiNeon 1s ease infinite alternate;
+}
+
+.raport a {
+    color: white;
+}
+.raport {
+    width: 80px;
+    height: 40px;
+    background-color: salmon;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: -2px 4px .8px;
 }
 
 @keyframes animasiNeon {
