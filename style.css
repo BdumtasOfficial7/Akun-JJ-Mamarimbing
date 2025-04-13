@@ -43,7 +43,7 @@ body {
     color: #333;
 }
 
-.profile-age, .profile-class {
+.profile-age, .profile-class, .profile-level {
     font-size: 16px;
     color: #777;
 }
