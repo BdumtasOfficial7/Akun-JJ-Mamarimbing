@@ -618,12 +618,12 @@ function processInput(input) {
     appendMessage("bot", "Apakah Anda ingin penjelasan lebih lanjut?");
     expectingYesNo = true;
   } else {
-    appendMessage("bot", `Maaf, saya belum punya penjelasan untuk topik "${topicWord}". Apabila "${topicWord}" merupakan singkatan atau simbol, Anda harus menambahkan kutip satu ('') agar saya bisa mengerti.`);
+    appendMessage("bot", `Maaf, saya belum punya penjelasan untuk topik "${topicWord}". Apabila "${topicWord}" merupakan singkatan atau simbol, Anda harus menambahkan kutip satu (' ') agar saya bisa mengerti. Contohnya: Apa yang dimaksud dengan '${topicWord}'?`);
   }
   return;
 }
 
-  appendMessage("bot", "Saya tidak yakin dengan maksud Anda. Coba tanyakan dengan format 'apa itu ...'.");
+  appendMessage("bot", "Saya tidak yakin dengan maksud Anda. Coba tanyakan dengan format 'apa itu ... ?'.");
 }
 
 function findClosestTopic(input) {
